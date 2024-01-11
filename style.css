@@ -38,13 +38,16 @@ section {
     border-radius: 10px;
     border-style: solid ;
     border-width: 1px;
-    box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.95);
     background-color: var(--White);
     padding: 15px;
     width: 320px;
     margin: auto;
     display: flex;
     flex-direction: column;
+}
+section:hover{
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.95);
+    cursor: pointer;
 }
 
 .border-img {
