@@ -45,6 +45,7 @@ section {
     display: flex;
     flex-direction: column;
 }
+
 section:hover{
     box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.95);
     cursor: pointer;
@@ -71,16 +72,15 @@ time{
     font-family: var(--paragraph);
 }
 
-.date {
-    font-family: var(--paragraph);
-}
-
 h1 {
     font-family: 'Figtree', sans-serif;
     font-weight: 800;
     font-size: 20px;
     margin: 10px 0 15px;
     
+}
+h1:hover{
+    color: var(--Yellow);
 }
 .grey {
     color: var(--Grey);
