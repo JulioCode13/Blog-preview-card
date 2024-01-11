@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap');
+
+:root {
+    /*COLOR PRIMARY */
+    --Yellow: hsl(47, 88%, 63%);
+
+
+    /*NEUTRAL*/
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --paragraph: font-family: 'Figtree', sans-serif;
+}
+
+/*Estilo Global*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Yellow);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    background: var(--Yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    border-radius: 10px;
+    border-style: solid ;
+    border-width: 1px;
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,0.95);
+    background-color: var(--White);
+    padding: 15px;
+    width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.border-img {
+    border-radius: 10px;
+    max-width: 100%;
+    
+}
+
+/*Yellow design*/
+.Yellow {
+    text-align: center;
+    width: 25%;
+    margin: 15px 0 15px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: var(--Yellow);
+    border-radius: 8px;
+}
+time{
+    font-size: 13px;
+    font-family: var(--paragraph);
+}
+
+.date {
+    font-family: var(--paragraph);
+}
+
+h1 {
+    font-family: 'Figtree', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 10px 0 15px;
+    
+}
+.grey {
+    color: var(--Grey);
+}
+/*Contenedor del author*/
+.author-text {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.author-text > p{
+    font-size: 14px;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+}
